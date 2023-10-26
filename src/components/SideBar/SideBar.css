@@ -1,0 +1,48 @@
+.sidebar {
+  width: 115%;
+  height: 100%;
+  border: 1px solid #ebf0f5;
+  background-color: white;
+}
+
+
+
+.buttons {
+  list-style: none;
+  padding-left: 0%;
+  
+}
+
+.button, .active-button {
+  background-color: #fff;
+  display: flex;
+  width: 85%;
+  padding: 12px 25px 12px 25px;
+  border-radius: 0 50px 50px 0;
+  text-align: center;
+  align-items: center;
+  margin-top: 20px;
+  border: none;
+  gap: 25px;
+  font-family: 'DM Sans';
+  font-weight: 600;
+  color: #566474;
+}
+
+
+.active-button{
+  color: #445EE2;
+  background-color: #F7F8FA;
+}
+
+.button:hover,  .active-button:hover{
+  color: #445EE2;
+    background-color:#F7F8FA ;
+}
+
+.button:focus, .active-button:focus{
+    color: #445EE2;
+    background-color:#F7F8FA
+}
+
+

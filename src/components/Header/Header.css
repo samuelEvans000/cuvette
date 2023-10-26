@@ -1,0 +1,28 @@
+.header{
+    display: flex;
+    width: 95vw;
+    
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ffffff;
+    border: 1px solid #EBF0F5; 
+    position: relative; 
+    padding: 20px 25px;
+}
+
+.profile-img{
+    border-radius: 50%;
+    width: 25px;
+}
+
+.profile{
+    display: flex;
+    align-items: center;
+    font-family:"DM Sans";
+    background-color: #ffffff;
+    border: 1px solid #EBF0F5; 
+    padding: 8px 6px;
+    gap: 8px;
+    font-family: 'DM Sans';
+  font-weight: 700;
+}
