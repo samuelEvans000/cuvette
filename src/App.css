@@ -20,6 +20,5 @@
 
 .content{
   display: flex;
- width: 110%;
-  
+  width: 100vw;
 }
