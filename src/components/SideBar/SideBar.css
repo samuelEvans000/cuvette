@@ -1,6 +1,6 @@
 .sidebar {
-  width: 115%;
-  height: 100%;
+  width: 250px;
+  /* height: 100%; */
   border: 1px solid #ebf0f5;
   background-color: white;
 }
@@ -45,4 +45,9 @@
     background-color:#F7F8FA
 }
 
+.content{
+  display: flex;
+  
+  width: 100vw;
+}
 

@@ -2,11 +2,12 @@ import "./SideBar.css";
 import dashboard from "../../assets/dashboard.png";
 import skill from "../../assets/skill.png";
 import internship from "../../assets/internship.png";
+import Row1 from "../Row1/Row1";
 
 function SideBar() {
   return (
     <>
-      <div>
+      <div className="content">
         <aside className="sidebar">
           <div>
             <ul className="buttons">
@@ -28,6 +29,9 @@ function SideBar() {
             </ul>
           </div>
         </aside>
+        <div>
+          <Row1/>
+        </div>
       </div>
     </>
   );
