@@ -1,4 +1,4 @@
-import "./Sidebar.css";
+import "./SideBar.css";
 import dashboard from "../../assets/dashboard.png";
 import skill from "../../assets/skill.png";
 import internship from "../../assets/internship.png";
